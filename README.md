@@ -11,6 +11,6 @@ Dê uma olhada na [Documentação](https://badwordapi.uesleidev.repl.co) do site
 👶 ● É API recente e com previsão para mais palavras.<br>
 🤝 ● Grupo de amigos desenvolvendo e atualizando constantemente.<br>
 ## Desenvolvedores
-● [UesleiDev](https://github.com/uesleibros)<br>
+● [UesleiDev (Eu)](https://github.com/uesleibros)<br>
 ● [zHary27](https://github.com/zHary27)
 </div>
