@@ -10,6 +10,8 @@ Dê uma olhada na [Documentação](https://badwordapi.uesleidev.repl.co) do site
 🗣 ● Suporte a mais de uma língua.<br>
 👶 ● É API recente e com previsão para mais palavras.<br>
 🤝 ● Grupo de amigos desenvolvendo e atualizando constantemente.<br>
+## Para que serve?
+É útil para fazer sistemas de anti-palavrões /ou anti-tóxicos. Pode ser usada para Bots do Discord, Chats ou qualquer outra ferramenta.<br>
 ## Desenvolvedores
 ● [UesleiDev (Eu)](https://github.com/uesleibros)<br>
 ● [zHary27](https://github.com/zHary27)
