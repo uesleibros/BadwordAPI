@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Badword API | Docs</title>
+    <link rel="icon" type="image/x-icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/facebook/304/face-with-symbols-on-mouth_1f92c.png"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">       </script>
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" type="text/css" />
+    
+  </head>
+  <body>
+    <center>
+      <image src="https://media.discordapp.net/attachments/929250560601894962/951662403429482546/20220310_230632.png?width=900&height=270" height="100"/><br/>
+
+      <image src="https://www.iconpacks.net/icons/2/free-sun-icon-3337-thumb.png" id="mode" height="30"/><br></br>
+        
+      <label class="switch">
+        <input id="toggle" type="checkbox" checked>
+        <a onclick="turn();" class="slider round"></a>
+      </label>
+        
+      <br></br><div class="container">
+        <h1>👋 Olá, Conheça a nossa API!</h1> <image src="http://3.bp.blogspot.com/-JbCoRCWa8JY/VNoPSYytB8I/AAAAAAAADmE/NXiWcHT5pdY/s1600/brasil5.png" height="30"/>
+        <hr style="width:65%;"></hr>
+        <p style="max-width:70%; font-family:calibri">Trata-se de uma api de palavrões/xingamentos. É bem simples, porém é bem completa.</p>
+
+		<p style="max-width:70%; font-family:calibri">Feita principalmente para você moderar o que pessoas estão falando em seu jogo, servidor do discord, aplicativo de chat ou qualquer coisa do gênero.</p>
+		
+        <p style="max-width:70%; font-family:calibri">Atualmente ela se encontra em seu estado de desenvolvimento, é uma API recente e tem muita a adicionar ainda.</p>
+        <h3>Acompanhe o quanto já fizemos de nossa API:</h3>
+
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped active" role="progressbar"
+            aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:99%;">
+              <span style="color:white; font-size:15px;">99%</span>
+            </div>
+        </div> <!--progress--> <br/>
+      </div> <!--container--> <br/> <br/>
+
+      <div class="container">
+        <h1>🧠 Rota Principal -> /badwords</h1>
+        <hr style="width:65%;"></hr>
+        <p style="max-width:70%; font-family:calibri">Toda a API ocorre nessa Rota. Apenas ao entrar na rota você obtem a lista de xingamentos que a API possui no momento.</p>
+        <h3>Parâmetros (1)</h3>
+        <p style="max-width:70%; font-family:calibri">O parâmetro <strong>?lang</strong> serve para escolher a língua em que os xingamentos iram ser imprimidos, no momento temos suporte a apenas 2 línguas: Português e Inglês.</p>
+        <h3>Como usar</h3>
+        <p style="max-width:70%; font-family:calibri">Para aplicar o parâmetro na API, basta adicionar <strong>?lang=língua</strong>. Para Português usa: <i>pt-br</i> e para Inglês usa: <i>en</i></p>
+        <h3>Exemplo</h3>
+        <p style="max-width:70%; font-family:calibri">Para Inglês</p>
+        <a href="https://badwordapi.uesleidev.repl.co/badwords?lang=en" style="color:#2b86e9;" target="_blank">https://badwordapi.uesleidev.repl.co/badwords?lang=en</a>
+        <p style="max-width:70%; font-family:calibri">Para Português</p>
+        <a href="https://badwordapi.uesleidev.repl.co/badwords?lang=pt-br" style="color:#2b86e9;" target="_blank">https://badwordapi.uesleidev.repl.co/badwords?lang=pt-br</a> <span>ou</span> <a href="https://badwordapi.uesleidev.repl.co/badwords" style="color:#2b86e9;" target=_blank">https://badwordapi.uesleidev.repl.co/badwords</a>
+      <br></br></div> <!--container--> <br/> <br/>
+
+      <div class="container">
+        <h1>💪 Sua Ajuda!</h1>
+        <hr style="width:65%;"></hr>
+        <p style="max-width:70%; font-family:calibri">Sua ajuda é muito importante para que o nosso projeto melhore e fique cada vez melhor. Você pode ajudar de diversas formas, veja uma delas:</p>
+        <ul>
+          <li>💡 Dando Sugestões.</li>
+          <li>🤝 Contribuindo com o código.</li>
+          <li>⭐ Avaliando e recomendando a API.</li>
+        </ul>
+        <h3>Links</h3>
+        <ul>
+          <li><a href="https://github.com/uesleibros/BadwordAPI"><image src="https://icones.pro/wp-content/uploads/2021/06/symbole-github-violet.png" height="20"/> Github da API</a></li>
+        </ul>
+        <h3>Como posso participar ou dar sugestões?</h3>
+        <p style="max-width:70%; font-family:calibri">Você pode falar com um dos desenvolvedores da API pelo Discord ou Gmail.</p>
+        <ul>
+          <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<image src="https://logosmarcas.net/wp-content/uploads/2020/12/Discord-Logo.png" height="15"/>&nbsp; UesleiDev#9059 | uesleibros@gmail.com | <a href="https://github.com/uesleibros">Github</a></li>
+          <li><image src="https://logosmarcas.net/wp-content/uploads/2020/12/Discord-Logo.png" height="15"/>&nbsp;&nbsp; Hary#7444 | icarofroes@gmail.com | <a href="https://github.com/zHary27">Github</a></li>
+        </ul>
+      <br/>
+      </div> <!--container--> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+    </center>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  </body>
+</html>
